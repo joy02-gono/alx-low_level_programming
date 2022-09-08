@@ -3,6 +3,7 @@
  * Description: using the main entry
  * using puts
  * printing the string programming is like building a multilingual puzzle
+ * return (0)
  */
 int main(void)
 {
