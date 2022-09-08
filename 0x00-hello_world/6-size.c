@@ -1,4 +1,4 @@
-sudo apt-get install -y libc6-dev-i386
+gcc 6-size.c -m64 -o size64 2> /tmp/64
 #include <stdio.h>
 
 /**
