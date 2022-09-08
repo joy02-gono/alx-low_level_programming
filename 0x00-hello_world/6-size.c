@@ -1,3 +1,4 @@
+sudo apt-get install -y libc6-dev-i386
 #include <stdio.h>
 
 /**
