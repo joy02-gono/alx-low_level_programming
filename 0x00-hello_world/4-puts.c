@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * in the main
+ * Description: using the main entry
  * using puts
  * printing the string programming is like building a multilingual puzzle
  */
