@@ -1,23 +1,22 @@
 #include <stdio.h>
 
 /**
- * main - prints the string in the put function
+ * main - Entry point
  *
- * Description: using the main function
- * this program prints the size of various types on the computer
- * Return: 0
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char c;
-	int i;
-	long li;
-	long long lli;
+	int a;
+	long int b;
+	long long int c;
+	char d;
 	float f;
 
-	printf("Size of a char: %ld byte(s)\n", sizeof(c));
-	printf("Size of an int: %ld byte(s)\n", sizeof(i));
-	printf("Size of a long int: %ld byte(s)\n", sizeof(li));
-	printf("Size of a long long long int: %ld byte(s)\n" sizeof(lli));
-	printf("Size of a float: %d byte(s)\n", sizeof(f));
+	printf("size of an int: %lu byte(s)\n", (unsigned long)sizeof(a));
+	printf("size of a long int: %u byte(s)\n", (unsigned long)sizeof(b));
+	printf("size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(c));
+	printf("size of a char: %lu byte(s)\n", (unsigned long)sizeof(d));
+	printf("size of a float: %lu byte(s)\n", (unsigned long)sizeof(f));
 	return (0);
+}
