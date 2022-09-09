@@ -7,7 +7,7 @@
  *
  * Return: Always 0
  */
-int main(v0id)
+int main(void)
 	int n = 0
 {
 	if (n < 0)
