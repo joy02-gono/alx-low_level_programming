@@ -3,7 +3,7 @@
 /**
  * main - lowercase and uppercase
  *
- * Description:this program prints the alphabet in lowercase, and then in uppercase
+ * Description:this program prints the alphabet in lowercase, and in uppercase
  *
  * Return: Always (Success)
  */
