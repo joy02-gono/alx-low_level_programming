@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * Prints the numbers since 0 to 9
+ * main - Prints the numbers since 0 to 9
  *
  * Description: this program prints all single numbers of base 10 from 0
  *
