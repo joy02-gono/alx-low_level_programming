@@ -5,7 +5,7 @@
  * main - Prints random number to variable
  *
  * Description: using the main function
- * this programm prints last digit of the number
+ * this programm prints last digit of the number stored in a variable n
  *
  * Return : 0
  */
