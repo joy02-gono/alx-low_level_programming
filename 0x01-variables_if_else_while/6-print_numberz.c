@@ -3,7 +3,7 @@
 /**
  * Prints the numbers since 0 to 9
  *
- * Description: this program prints numbers of base 10 from 0
+ * Description: this program prints all single numbers of base 10 from 0
  *
  * Return: Always (Success)
  */
