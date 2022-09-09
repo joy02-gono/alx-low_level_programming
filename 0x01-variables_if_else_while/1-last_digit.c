@@ -2,16 +2,17 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Prints if number is positive, zero or negative
+ * main - Prints random number to variable
  *
  * Description: using the main function
  *
- * Return : 0
+ * Return : Always (Succesful)
  */
 int main(void)
 {
 	int n;
 	char last[] = "Last digit of";
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	printf("%s %d is %d and is ", last, n, n % 10);
