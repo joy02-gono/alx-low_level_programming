@@ -5,6 +5,7 @@
  * main - Prints random number to variable
  *
  * Description: using the main function
+ * this programm prints last digit of the number
  *
  * Return : Always (Succesful)
  */
