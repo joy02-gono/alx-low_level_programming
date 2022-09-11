@@ -2,7 +2,7 @@
 
 /**
  * main - print single digit numbers starting from 0
- * 
+ *
  * Description: prints all possible different combinations of two digits
  *
  * Return: returns zero at the end
