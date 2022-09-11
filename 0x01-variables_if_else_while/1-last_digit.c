@@ -1,9 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
  * main - Prints random number to variable
- 
+ *
  * Description: this program prints last digit stored in a variable
  *
  * Return: Always (Success)
@@ -25,7 +26,7 @@ int main(void)
 		printf("Last digit of %d is %d and is 0\n", n, lastn);
 	  } else
 	   {
-		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, lastn);
+   	        printf("Last digit of %d is %d and is less than 6 and not 0\n", n, lastn);
 	   }
 	return (0);
 }
