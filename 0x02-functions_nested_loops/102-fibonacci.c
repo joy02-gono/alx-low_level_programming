@@ -15,7 +15,7 @@ int main(void)
 
 	j = 1;
 	k = 2;
-	printf("l%d", %ld, ", j, k);
+	printf("l%d, %ld, ", j, k);
 	for (i = 3; i <= 50; i++)
 	{
 		f = j + k;
@@ -27,6 +27,6 @@ int main(void)
 		j = k;
 		k = f;
 	}
-	printf"\n");
+	printf("\n");
 	return (0);
 }
