@@ -20,7 +20,7 @@ int main(void)
 	{
 		f = j + k;
 		printf("%ld", f);
-        	if (i != 50)
+		if (i != 50)
 		{
 			printf(", ");
 		}
