@@ -15,14 +15,14 @@ int main(void)
 
 	j = 1;
 	k = 2;
-	printf("l%d, %ld, ", j, k);
+	printf("%ld, %ld, ", j, k);
 	for (i = 3; i <= 50; i++)
 	{
 		f = j + k;
 		printf("%ld", f);
         	if (i != 50)
 		{
-			print(", ");
+			printf(", ");
 		}
 		j = k;
 		k = f;
