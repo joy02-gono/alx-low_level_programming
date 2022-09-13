@@ -16,10 +16,10 @@ int main(void)
 	sum = 0;
 	while (f <= 4000000)
 	{
-		f = j  = k;
+		f = j  + k;
 		if (k % 2 == 0)
 		{
-			sum +=k;
+			sum += k;
 		}
 		j = k;
 		k = f;
