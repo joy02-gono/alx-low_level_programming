@@ -28,14 +28,13 @@ void print_times_table(int num)
 		_putchar(' ');
 		for (t = 1; t <= num; t++)
 		{
-			m = n * t;
-			number(m);
+			m = n * t
 			if (t != num)
 			{
 				_putchar(',');
 				_putchar(' ');
 			}
 		}
-		putchar('\n');
+		_putchar('\n');
 	}
 }
