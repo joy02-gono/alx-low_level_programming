@@ -2,7 +2,7 @@
 
 /**
  * number - function that print number
- * @i: number to print
+ * @i: number to print the times table
  * Return: void
  */
 
