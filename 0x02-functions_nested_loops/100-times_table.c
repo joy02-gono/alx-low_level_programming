@@ -11,6 +11,7 @@ void print_times_table(int num)
 	int n;
 	int t;
 	int m;
+	number;
 	if (num < 0 || num > 15)
 	{
 		return;
@@ -28,7 +29,8 @@ void print_times_table(int num)
 		_putchar(' ');
 		for (t = 1; t <= num; t++)
 		{
-			m = n * t
+			m = n * t;
+			number(m);
 			if (t != num)
 			{
 				_putchar(',');
