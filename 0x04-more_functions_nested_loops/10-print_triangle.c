@@ -30,7 +30,7 @@ void  print_trianlge(int size)
 			}
 			y++;
 			x = 0;
-			_putchar ('\n');
+			_putchar('\n');
 		}
 	}
 	else
