@@ -3,7 +3,7 @@
 
 /**
  * rev - function that reverse swap two char
- * @: first parameter
+ * @a: first parameter
  * @b: second parameter
  * Return: void
  */
