@@ -1,6 +1,5 @@
 #include "main.h"
 
-
 /**
  * rev - function that reverse swap two char
  * @: first parameter
@@ -8,7 +7,7 @@
  * Return: void
  */
 
-void rev(char*a, char *b)
+void rev(char *a, char *b)
 {
 	char tmp;
 
