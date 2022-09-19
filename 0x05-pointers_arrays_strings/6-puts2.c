@@ -9,23 +9,18 @@
 
 void put2(char *str)
 {
-	int i, j;
-	char c;
+	int i;
+	int j = 0;
 
-	c = *str;
-	i = 0;
-	while (c)
+	while (str[j] != '\0')
 	{
-		i++;
-		c = *(str + i);
+		j++;
 	}
-	j = 0;
-	i--;
 
-	while (j <= i)
+	for (i = 0; i < j; i += 2)
 	{
-		_putchar(*(str + j));
-		j += 2;
+		_putchar(str[i]);
 	}
+
 	_putchar('\n');
 }
