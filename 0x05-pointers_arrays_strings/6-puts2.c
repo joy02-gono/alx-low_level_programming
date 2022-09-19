@@ -9,7 +9,7 @@
 
 void put2(char *str)
 {
-	inti, j;
+	int i, j;
 	char c;
 
 	c = *str;
