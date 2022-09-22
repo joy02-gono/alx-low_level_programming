@@ -19,7 +19,7 @@ int _indexOf(char a)
 	return (0);
 }
 /**
- * cap_string -capitalizes the string
+ * cap_string - capitalizes the string
  * @s: string
  * Return: the string capitalized
  */
