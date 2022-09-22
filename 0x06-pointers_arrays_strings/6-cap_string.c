@@ -14,7 +14,7 @@ int _indexOf(char a)
 	for (j = 0; j < 13; j++)
 	{
 		if (capArr[j] == a)
-			return (10);
+			return (1);
 	}
 	return (0);
 }
