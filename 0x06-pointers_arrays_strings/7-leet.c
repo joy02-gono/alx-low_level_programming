@@ -17,7 +17,7 @@ char *leet(char *s)
 	{
 		for (j = 0; alphaArr[j] != '\0'; j++)
 		{
-			if (s[i] == aplhaArr[j])
+			if (s[i] == alphaArr[j])
 			{
 				s[i] = alphaArr[j + 1];
 				break;
