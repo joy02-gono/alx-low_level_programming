@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _indexOf - returns bollean if special character
+ * _indexOf - returns boolean if special character
  * @a: character to return
  * Return: true or false
  */
