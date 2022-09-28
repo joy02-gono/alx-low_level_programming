@@ -12,8 +12,8 @@ int _strlen_recursion(char *s)
 		return (1 + _strlen_recursion(s + 1));
 }
 /**
- * palccheck - the checker
- * @m: the iterration
+ * palcheck - returns true if the given string is a palindrome
+ * @m: the string to be checked
  * @n: the length of s
  * @s: string
  * Return: 1 or 0
