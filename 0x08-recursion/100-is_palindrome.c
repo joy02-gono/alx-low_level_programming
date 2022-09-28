@@ -24,7 +24,7 @@ int palcheck(int m, int n, char *s)
 		return (1);
 	if (*(s + m) != *(s + n - m))
 		return (0);
-	return (palcheck( m + 1, n, s));
+	return (palcheck(m + 1, n, s));
 }
 /**
  * is_palindrome - function that checks if a string is a palindrome
@@ -34,5 +34,6 @@ int palcheck(int m, int n, char *s)
 int is_palindrome(char *s)
 {
 	int i = _strlen_recursion(s);
+
 	return (palcheck(0, i - 1, s));
 }
