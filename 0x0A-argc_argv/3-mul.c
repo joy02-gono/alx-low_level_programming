@@ -4,8 +4,8 @@
 /**
  * main - program that multiplies two numbers
  * @argc: number of arguments
- * @argv: vector arguments
- * Return: 0 if no errors otherwise 1
+ * @argv: vector argument
+ * Return: 0 if no errors, else 1
  */
 int main(int argc, char *argv[])
 {
