@@ -10,10 +10,10 @@
  * pointer to allocated space
  */
 
-char *_strup(char *str)
+char *_strdup(char *str)
 {
 	char *cpy;
-	int index, lrn;
+	int index, len;
 
 	if (str == NULL)
 		return (NULL);
