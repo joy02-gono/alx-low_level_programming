@@ -1,10 +1,9 @@
 #include "main.h"
 
 
-
 /**
  *
- * * free_grid - frees a 2d array
+ * * free_grid - function that frees a 2 dimensional grid
  *
  * *@grid:memory block to be freed
  *
@@ -12,7 +11,7 @@
  *
  * *Return:returns void
  *
- * */
+ */
 
 
 void free_grid(int **grid, int height)
@@ -24,4 +23,3 @@ void free_grid(int **grid, int height)
 
 	free(grid);
 }
-
