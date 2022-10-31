@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * append_text_to_file - appends text at the end of a file
- * @filename: pointer to nam eof file
+ * @filename: pointer to name of file
  * @text_content: null terminated string
  *
  * Return: 1 on success, -1 on failure
