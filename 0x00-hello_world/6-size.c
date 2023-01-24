@@ -1,23 +1,24 @@
-gcc 6-size.c -m64 -o size64 2> /tmp/64
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - main function
  *
- * Return: Always 0 (Success)
+ * Return: 0
+ *
  */
+
 int main(void)
 {
-	int a;
-	long int b;
-	long long int c;
-	char d;
+	char c;
+	int i;
+	long li;
+	long long lli;
 	float f;
 
-	printf("size of an int: %lu byte(s)\n", (unsigned long)sizeof(a));
-	printf("size of a long int: %u byte(s)\n", (unsigned long)sizeof(b));
-	printf("size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(c));
-	printf("size of a char: %lu byte(s)\n", (unsigned long)sizeof(d));
-	printf("size of a float: %lu byte(s)\n", (unsigned long)sizeof(f));
+	printf("Size of a char: %d byte(s)\n", sizeof(c));
+	printf("Size of an int: %d byte(s)\n", sizeof(i));
+	printf("Size of a long int: %d byte(s)\n", sizeof(li));
+	printf("Size of a long long int: %d byte(s)\n", sizeof(lli));
+	printf("Size of a float: %d byte(s)\n", sizeof(f));
 	return (0);
 }
